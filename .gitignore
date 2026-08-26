@@ -1,0 +1,23 @@
+# Private manuscript and local analysis outputs
+data/
+results/
+figures/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.pt
+*.bin
+*.safetensors
+*.pdf
+*.docx
+*.tex
+manuscript/
+paper_work/
+revision_data/
+# Model and tool caches
+.cache/
+.huggingface/
+__pycache__/
+*.pyc

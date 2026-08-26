@@ -1,0 +1,9 @@
+# Tested with Python 3.11
+numpy==2.5.1
+pandas==3.0.5
+scikit-learn==1.9.0
+torch==2.13.0
+transformers==5.15.1
+peft==0.20.0
+tokenizers==0.22.2
+safetensors==0.8.0
