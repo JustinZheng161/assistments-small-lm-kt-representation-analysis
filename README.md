@@ -27,3 +27,7 @@ python scripts/run_token_matched_output_audit_random.py --device cuda --dtype bf
 For resource-limited exploratory runs, `--permutations` controls the label-permutation count in the probe script and `--bootstrap-iterations` controls the bootstrap count in the output script. Both default to 1000, matching the documented audit settings; reduced counts are suitable only for smoke tests and must not replace the paper settings in a final rerun.
 
 The optimization changes execution throughput and resource control only. It does not alter the sampling rule, labels, folds, classifier, prompt text, pooling definition, output score, bootstrap procedure, or reported interpretation boundaries. The repository does not publish model outputs or sensitive records.
+
+## End-to-end local reproduction
+
+The reproducibility entry points are documented in [`scripts/reproduce/reproduce-readme.md`](scripts/reproduce/reproduce-readme.md). They reconstruct the paper’s deterministic mappings, Figure 2 accessibility diagnostic, and Figure 4 lexical output-sensitivity diagnostic from a corrected ASSISTments source file that the user obtains independently. Each result file records the requested and resolved model revision so that numerical comparisons are not made against an unspecified mutable model branch. All generated figures, JSON, temporary samples, and model outputs are written to ignored local directories.

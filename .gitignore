@@ -1,23 +1,25 @@
+# Local reproducibility outputs
+# Model and tool caches
 # Private manuscript and local analysis outputs
-data/
-results/
-figures/
+*.bin
 *.csv
+*.docx
 *.json
 *.jsonl
 *.parquet
+*.pdf
 *.pkl
 *.pt
-*.bin
+*.pyc
 *.safetensors
-*.pdf
-*.docx
 *.tex
-manuscript/
-paper_work/
-revision_data/
-# Model and tool caches
 .cache/
 .huggingface/
 __pycache__/
-*.pyc
+data/
+figures/
+manuscript/
+paper_work/
+reproduce-output/
+results/
+revision_data/

@@ -57,7 +57,7 @@ def make_prompt(r, mode):
     elif mode == 'table':
         phrase = 'table'
     elif mode == 'removed':
-        return f'Single interaction record. Skill {r.skill_id}.'
+        phrase = 'removed'
     if args.template == 'revised':
         return f'Single interaction record. Skill {r.skill_id}. The response to this skill question was {phrase}.'
     return f'Single interaction record. Skill {r.skill_id}. Previous response was {phrase}.'
@@ -83,7 +83,7 @@ def score(texts):
             out.append((v[:, cor_id] - v[:, wrong_id]).float().cpu().numpy())
     return np.concatenate(out)
 
-results = {'seed': SEED, 'sample_rows': int(len(sample)), 'sample_rule': 'random audit set: rows 625-636 of a seed-42 within-skill permutation after reserving 600 main and 24 development records', 'model': MODEL_LABEL, 'runtime': {'device': str(device), 'dtype': str(dtype).replace('torch.', ''), 'batch_size': args.batch_size, 'max_length': args.max_length, 'bootstrap_iterations': args.bootstrap_iterations, 'template': args.template}, 'token_counts': word_counts, 'modes': {}}
+results = {'seed': SEED, 'sample_rows': int(len(sample)), 'sample_rule': 'random audit set: rows 625-636 of a seed-42 within-skill permutation after reserving 600 main and 24 development records', 'model': MODEL_LABEL, 'runtime': {'device': str(device), 'dtype': str(dtype).replace('torch.', ''), 'batch_size': args.batch_size, 'max_length': args.max_length, 'bootstrap_iterations': args.bootstrap_iterations, 'template': args.template}, 'token_counts': word_counts, 'modes': {}, 'condition_note': 'The `removed` condition is a literal one-token replacement word. The separate skill-only baseline removes the response phrase.'}
 for mode in ['explicit', 'neutral', 'unknown', 'apple', 'table', 'removed']:
     values = score([make_prompt(r, mode) for r in sample.itertuples()])
     auc = float(roc_auc_score(y, values))
