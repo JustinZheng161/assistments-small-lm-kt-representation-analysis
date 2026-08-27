@@ -1,0 +1,6344 @@
+{
+  "schema_version": "v18",
+  "privacy": "opaque 16-character student hash only; raw user_id and private salt excluded",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt": "Single interaction record. Skill [skill]. The response to this skill question was [condition].",
+  "rows": [
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545069694519043
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545069694519043
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545069694519043
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545069694519043
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545069694519043
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 1.8545093536376953
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "explicit",
+      "logit_diff": 0.8536357879638672
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 0.7083444595336914
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 0.7083477973937988
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "explicit",
+      "logit_diff": 2.000174045562744
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651692390441895
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651692390441895
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651692390441895
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651697158813477
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 1.8533058166503906
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651692390441895
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "explicit",
+      "logit_diff": 0.6651692390441895
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 0.590461254119873
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 0.590461254119873
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 0.590461254119873
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905373573303223
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 1.7905359268188477
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "explicit",
+      "logit_diff": 0.590461254119873
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 0.7447700500488281
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.7901878356933594
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 0.7447700500488281
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 1.790184497833252
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "explicit",
+      "logit_diff": 0.7447700500488281
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 0.5377893447875977
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "explicit",
+      "logit_diff": 1.981572151184082
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 0.5996966361999512
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 0.5996966361999512
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.8491320610046387
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 0.5996966361999512
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 0.5996966361999512
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "explicit",
+      "logit_diff": 1.849135398864746
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 0.6390485763549805
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.9266228675842285
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 0.6390485763549805
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 0.6390485763549805
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 0.6390485763549805
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "explicit",
+      "logit_diff": 1.92661714553833
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 0.5685267448425293
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 0.5685267448425293
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 0.5685267448425293
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "explicit",
+      "logit_diff": 1.895395278930664
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "explicit",
+      "logit_diff": 1.8676891326904297
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 0.6114625930786133
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 0.6114625930786133
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 0.6114625930786133
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 0.611457347869873
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 0.611457347869873
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "explicit",
+      "logit_diff": 1.9974870681762695
+    },
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870377540588379
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "neutral",
+      "logit_diff": 0.8870425224304199
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.941922664642334
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "neutral",
+      "logit_diff": 0.9419188499450684
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972659111022949
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "neutral",
+      "logit_diff": 0.8972702026367188
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913445472717285
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "neutral",
+      "logit_diff": 0.8913416862487793
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332986831665039
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "neutral",
+      "logit_diff": 0.8332924842834473
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "neutral",
+      "logit_diff": 0.9476933479309082
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145402908325195
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "neutral",
+      "logit_diff": 0.9145350456237793
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692821502685547
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "neutral",
+      "logit_diff": 0.9692802429199219
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "neutral",
+      "logit_diff": 0.8698673248291016
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "neutral",
+      "logit_diff": 0.832005500793457
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516654014587402
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516668319702148
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516668319702148
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516668319702148
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "neutral",
+      "logit_diff": 0.9516668319702148
+    },
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.781923770904541
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "unknown",
+      "logit_diff": 0.78192138671875
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515204429626465
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "unknown",
+      "logit_diff": 0.9515199661254883
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7680048942565918
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "unknown",
+      "logit_diff": 0.7679986953735352
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529282569885254
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "unknown",
+      "logit_diff": 0.7529296875
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042926788330078
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "unknown",
+      "logit_diff": 0.8042840957641602
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "unknown",
+      "logit_diff": 0.913449764251709
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599902153015137
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "unknown",
+      "logit_diff": 0.7599954605102539
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.874575138092041
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "unknown",
+      "logit_diff": 0.8745765686035156
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "unknown",
+      "logit_diff": 0.7864151000976562
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "unknown",
+      "logit_diff": 0.8434510231018066
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862689971923828
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862537384033203
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862537384033203
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862537384033203
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "unknown",
+      "logit_diff": 0.9862537384033203
+    },
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204086303710938
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "apple",
+      "logit_diff": 2.0204029083251953
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929792881011963
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "apple",
+      "logit_diff": 1.929800033569336
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "apple",
+      "logit_diff": 2.0669875144958496
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376744270324707
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "apple",
+      "logit_diff": 2.0376720428466797
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172590255737305
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "apple",
+      "logit_diff": 2.1172561645507812
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "apple",
+      "logit_diff": 1.9802837371826172
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.07249116897583
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "apple",
+      "logit_diff": 2.0724897384643555
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650931358337402
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "apple",
+      "logit_diff": 1.9650940895080566
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "apple",
+      "logit_diff": 1.8830413818359375
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "apple",
+      "logit_diff": 1.8333840370178223
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843873977661133
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843897819519043
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843897819519043
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843897819519043
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "apple",
+      "logit_diff": 1.9843897819519043
+    },
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974383354187012
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "table",
+      "logit_diff": 1.0974364280700684
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145892143249512
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "table",
+      "logit_diff": 1.1145877838134766
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754127502441406
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "table",
+      "logit_diff": 1.0754122734069824
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "table",
+      "logit_diff": 1.0374908447265625
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246390342712402
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "table",
+      "logit_diff": 1.1246380805969238
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "table",
+      "logit_diff": 1.0778217315673828
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608363151550293
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "table",
+      "logit_diff": 1.0608410835266113
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900321006774902
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "table",
+      "logit_diff": 1.0900325775146484
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "table",
+      "logit_diff": 1.0563087463378906
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "table",
+      "logit_diff": 1.051764965057373
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028809547424316
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028800010681152
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028800010681152
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028800010681152
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "table",
+      "logit_diff": 1.1028800010681152
+    },
+    {
+      "record_index": 0,
+      "hashed_user_id": "a9c68463c2d1f17c",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 1,
+      "hashed_user_id": "3dec7b48dda49575",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 2,
+      "hashed_user_id": "b783dc36f173c50e",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 3,
+      "hashed_user_id": "a5e982b5bacb733a",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 4,
+      "hashed_user_id": "fb02ea20a511e43f",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 5,
+      "hashed_user_id": "56f27c707e19cd41",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 6,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 7,
+      "hashed_user_id": "5743a0b4b38978df",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 8,
+      "hashed_user_id": "f4436da452d225b9",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 9,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 10,
+      "hashed_user_id": "d715d98efe7d428c",
+      "true_label": 1,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939279079437256
+    },
+    {
+      "record_index": 11,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 0,
+      "skill": "311",
+      "condition": "removed",
+      "logit_diff": 0.7939298152923584
+    },
+    {
+      "record_index": 12,
+      "hashed_user_id": "dfc71dd1a6a34de9",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 13,
+      "hashed_user_id": "5395cdd462257481",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 14,
+      "hashed_user_id": "0f0e579ab6c36513",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 15,
+      "hashed_user_id": "a481c09a7d6786c6",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 16,
+      "hashed_user_id": "8d111924880d5ff1",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 17,
+      "hashed_user_id": "ee8ebe1826823b2f",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 18,
+      "hashed_user_id": "4dd1bd48970a1a6a",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 19,
+      "hashed_user_id": "3211b572e9714b87",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 20,
+      "hashed_user_id": "6fa9026f0433e619",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 21,
+      "hashed_user_id": "ab94ca711fa52f7e",
+      "true_label": 0,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850939750671387
+    },
+    {
+      "record_index": 22,
+      "hashed_user_id": "87ebbad88a712efa",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 23,
+      "hashed_user_id": "2b9f70685e83b460",
+      "true_label": 1,
+      "skill": "47",
+      "condition": "removed",
+      "logit_diff": 1.0850896835327148
+    },
+    {
+      "record_index": 24,
+      "hashed_user_id": "87f7eab5f60610c9",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 25,
+      "hashed_user_id": "8765042b486cc75d",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 26,
+      "hashed_user_id": "2fc71047e187c512",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 27,
+      "hashed_user_id": "826c21a81f18c4ab",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 28,
+      "hashed_user_id": "8287593c319fcc48",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 29,
+      "hashed_user_id": "b45c2cb824db47f4",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 30,
+      "hashed_user_id": "12a3d2f9f1cbcc24",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 31,
+      "hashed_user_id": "f740c2f1400f38e1",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.7456963062286377
+    },
+    {
+      "record_index": 32,
+      "hashed_user_id": "972a1171802a93bc",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 33,
+      "hashed_user_id": "cbb0ccbbc2a86863",
+      "true_label": 1,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 34,
+      "hashed_user_id": "7476dfdc48cf1a12",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 35,
+      "hashed_user_id": "2f2a7f8c5fcdc6ee",
+      "true_label": 0,
+      "skill": "277",
+      "condition": "removed",
+      "logit_diff": 0.745697021484375
+    },
+    {
+      "record_index": 36,
+      "hashed_user_id": "d5993e14bcb7fafe",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 37,
+      "hashed_user_id": "f86ad0901ee5f60a",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 38,
+      "hashed_user_id": "93966fe28df2be08",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 39,
+      "hashed_user_id": "37795d885f602217",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 40,
+      "hashed_user_id": "5dba6fb643669790",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 41,
+      "hashed_user_id": "2cc3ffa1b6ae8b0e",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 42,
+      "hashed_user_id": "083920bac85db49e",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751356601715088
+    },
+    {
+      "record_index": 43,
+      "hashed_user_id": "9c8015a277965e1a",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 44,
+      "hashed_user_id": "dbb47636a5ffcdb6",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 45,
+      "hashed_user_id": "bf0a3b5db33f6492",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 46,
+      "hashed_user_id": "42e1a7afb26a65dd",
+      "true_label": 1,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 47,
+      "hashed_user_id": "f34fce4e6c310ee4",
+      "true_label": 0,
+      "skill": "280",
+      "condition": "removed",
+      "logit_diff": 0.8751342296600342
+    },
+    {
+      "record_index": 48,
+      "hashed_user_id": "bac4554a5b807fc7",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 49,
+      "hashed_user_id": "c67e69e1daabae79",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 50,
+      "hashed_user_id": "63d43faf85617e0e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 51,
+      "hashed_user_id": "c118703e2f5717cb",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 52,
+      "hashed_user_id": "cc17a57127a97e54",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 53,
+      "hashed_user_id": "b816754fe859317e",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401567935943604
+    },
+    {
+      "record_index": 54,
+      "hashed_user_id": "97ef106006090704",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 55,
+      "hashed_user_id": "dfd2820f33677525",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 56,
+      "hashed_user_id": "e1eb3183a88b7f23",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 57,
+      "hashed_user_id": "7c82667bb44bb5ed",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 58,
+      "hashed_user_id": "2382fae19fd4de7c",
+      "true_label": 1,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 59,
+      "hashed_user_id": "b687e9b45d7a0e64",
+      "true_label": 0,
+      "skill": "312",
+      "condition": "removed",
+      "logit_diff": 0.8401532173156738
+    },
+    {
+      "record_index": 60,
+      "hashed_user_id": "68e30d78b424b938",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 61,
+      "hashed_user_id": "3009c278ba256d1f",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 62,
+      "hashed_user_id": "97d6f69eaf91dab3",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 63,
+      "hashed_user_id": "f5c9a4f15cfdfded",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 64,
+      "hashed_user_id": "e4de55f5b8d5dbe8",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 65,
+      "hashed_user_id": "8f7133322d797713",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 66,
+      "hashed_user_id": "3d7dea6be672b834",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 67,
+      "hashed_user_id": "cc5dd5ebe633296f",
+      "true_label": 0,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 68,
+      "hashed_user_id": "8219d0bd0debd27d",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 69,
+      "hashed_user_id": "e61a61da8d357f02",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 70,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 71,
+      "hashed_user_id": "09317f3f57bb1815",
+      "true_label": 1,
+      "skill": "79",
+      "condition": "removed",
+      "logit_diff": 0.9528682231903076
+    },
+    {
+      "record_index": 72,
+      "hashed_user_id": "d9ba6f636abeefa3",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 73,
+      "hashed_user_id": "d34bd4eaea62e3c4",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 74,
+      "hashed_user_id": "3f2c65fc0fa51a24",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297215461730957
+    },
+    {
+      "record_index": 75,
+      "hashed_user_id": "16f97273519241e6",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 76,
+      "hashed_user_id": "8a28cbc9510790ae",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 77,
+      "hashed_user_id": "0490bce2369549a1",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 78,
+      "hashed_user_id": "837c45a104c4fc91",
+      "true_label": 0,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 79,
+      "hashed_user_id": "bb540e4ff63f66a2",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 80,
+      "hashed_user_id": "68a5a8e781525206",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 81,
+      "hashed_user_id": "a62af88469c4395c",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 82,
+      "hashed_user_id": "dc19ccdd9d960f89",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 83,
+      "hashed_user_id": "2b969865279c8a1f",
+      "true_label": 1,
+      "skill": "279",
+      "condition": "removed",
+      "logit_diff": 0.7297251224517822
+    },
+    {
+      "record_index": 84,
+      "hashed_user_id": "ccbc2ce7f73018c6",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 85,
+      "hashed_user_id": "af19385307808909",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343470573425293
+    },
+    {
+      "record_index": 86,
+      "hashed_user_id": "5bd41560aa19cb3a",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 87,
+      "hashed_user_id": "e0988b9eba07c216",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 88,
+      "hashed_user_id": "aad17be0ecf02078",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 89,
+      "hashed_user_id": "bb5367c87e8a9e60",
+      "true_label": 0,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 90,
+      "hashed_user_id": "349fea41b74332c5",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 91,
+      "hashed_user_id": "2493e0bb6b971540",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 92,
+      "hashed_user_id": "ad1681557d6e58b1",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 93,
+      "hashed_user_id": "8aa04413cece6303",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 94,
+      "hashed_user_id": "3fae0af94db3ae6b",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 95,
+      "hashed_user_id": "58b699d527f7f07d",
+      "true_label": 1,
+      "skill": "27",
+      "condition": "removed",
+      "logit_diff": 1.0343456268310547
+    },
+    {
+      "record_index": 96,
+      "hashed_user_id": "89370c2a29d791ea",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 97,
+      "hashed_user_id": "489eb9aa902ef728",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 98,
+      "hashed_user_id": "d0cc8ca7774ee685",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 99,
+      "hashed_user_id": "21b002cf44c1eeed",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 100,
+      "hashed_user_id": "37c94a1bdc8f5b46",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 101,
+      "hashed_user_id": "97a56689ce96f576",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 102,
+      "hashed_user_id": "8f878a5bd47fcd3d",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 103,
+      "hashed_user_id": "f15d5b1108a2fc5b",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 104,
+      "hashed_user_id": "7ef3844fcefa08f1",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 105,
+      "hashed_user_id": "a93e83807d102f3c",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 106,
+      "hashed_user_id": "4959fda87321416e",
+      "true_label": 0,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 107,
+      "hashed_user_id": "442b5bd3bc42e6ab",
+      "true_label": 1,
+      "skill": "18",
+      "condition": "removed",
+      "logit_diff": 1.0498404502868652
+    },
+    {
+      "record_index": 108,
+      "hashed_user_id": "0e97ae3de1f90c8a",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 109,
+      "hashed_user_id": "e1e1ec760dc6cbb6",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 110,
+      "hashed_user_id": "9adfa7e53e358653",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 111,
+      "hashed_user_id": "edde00cd47deb7f1",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 112,
+      "hashed_user_id": "b44c0d5a3615e69b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 113,
+      "hashed_user_id": "623c57390eed1253",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 114,
+      "hashed_user_id": "44b470c4121d94c7",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 115,
+      "hashed_user_id": "91ee760e6796a0d9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 116,
+      "hashed_user_id": "8f0d4975702d82d2",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 117,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 118,
+      "hashed_user_id": "2f365add8bb4485b",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 119,
+      "hashed_user_id": "968b750d22c4393e",
+      "true_label": 1,
+      "skill": "50",
+      "condition": "removed",
+      "logit_diff": 1.078040361404419
+    },
+    {
+      "record_index": 120,
+      "hashed_user_id": "4a0b1ddc02440878",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 121,
+      "hashed_user_id": "79f8321fff0257be",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 122,
+      "hashed_user_id": "92caa9c84d617b8b",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 123,
+      "hashed_user_id": "0adfcc56fed6f9ce",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 124,
+      "hashed_user_id": "a4a957c784773423",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 125,
+      "hashed_user_id": "9dde12de74b468b9",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 126,
+      "hashed_user_id": "d27f541d6754d7df",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 127,
+      "hashed_user_id": "9a944deb5bb403e6",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.0193428993225098
+    },
+    {
+      "record_index": 128,
+      "hashed_user_id": "7cf582f431db198c",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.019343614578247
+    },
+    {
+      "record_index": 129,
+      "hashed_user_id": "7b6b3b174158d90c",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.019343614578247
+    },
+    {
+      "record_index": 130,
+      "hashed_user_id": "22a6f6978dc6eb75",
+      "true_label": 0,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.019343614578247
+    },
+    {
+      "record_index": 131,
+      "hashed_user_id": "291e495dae3ec0e5",
+      "true_label": 1,
+      "skill": "77",
+      "condition": "removed",
+      "logit_diff": 1.019343614578247
+    }
+  ]
+}

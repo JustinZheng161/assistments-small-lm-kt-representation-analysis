@@ -1,0 +1,33 @@
+{
+  "schema_version": "v18",
+  "files": {
+    "manifest-dev-v18.json": {
+      "rows": 792,
+      "unique_records": 264,
+      "fields": [
+        "fold_id",
+        "hashed_user_id",
+        "pooling_type",
+        "predicted_skill",
+        "record_index",
+        "true_skill"
+      ],
+      "contains_raw_user_id": false,
+      "contains_private_salt": false
+    },
+    "manifest-audit-v18.json": {
+      "rows": 792,
+      "unique_records": 132,
+      "fields": [
+        "condition",
+        "hashed_user_id",
+        "logit_diff",
+        "record_index",
+        "skill",
+        "true_label"
+      ],
+      "contains_raw_user_id": false,
+      "contains_private_salt": false
+    }
+  }
+}
